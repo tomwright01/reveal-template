@@ -13,7 +13,7 @@ them to Github.
 
 In order to start a new presentation, do the following:
 
-    git clone git@github.com:mbrochh/reveal-template.git
+    git clone git@github.com:tomwright01/reveal-template.git
     cd reveal-template
     rm -rf .git
     git init
@@ -22,6 +22,8 @@ In order to start a new presentation, do the following:
     mkvirtualenv -p python2.7 reveal-template
     workon reveal-template
     pip install -r requirements.txt
+    cd presentation/reveal.js
+    git submodule add git@github.com:mbrochh/reveal-template.git
 
 Now you should have all necessary Python software installed.
 
